@@ -11,7 +11,7 @@ import (
 //MongoCN is the var to connect Mongodb
 var MongoCN = ConnectDB()
 
-var clientOptions = options.Client().ApplyURI("mongodb+srv://sebastian:Zed15472994@zedb-6kra0.mongodb.net/<dbname>?retryWrites=true&w=majority")
+var clientOptions = options.Client().ApplyURI("mongodb+srv://sebastian:@zedb-6kra0.mongodb.net/<dbname>?retryWrites=true&w=majority")
 
 //ConnectDB is the connect DB function
 func ConnectDB() *mongo.Client {
